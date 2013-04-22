@@ -12,7 +12,16 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	// Insert code here to initialize your application
+	NSString*		scriptPath	= [[NSBundle mainBundle] pathForResource:@"sendkey" ofType:@"scpt"];
+	NSURL*			scriptURL	= [NSURL fileURLWithPath:scriptPath];
+	NSDictionary*	errors;
+	NSAppleScript*	script		= [[NSAppleScript alloc] initWithContentsOfURL:scriptURL error:&errors];
+	
+	NSLog( @"%@", errors );
+	
+	[script executeAndReturnError:&errors];
+	
+	NSLog( @"%@", errors );
 }
 
 @end

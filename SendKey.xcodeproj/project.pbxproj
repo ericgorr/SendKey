@@ -13,6 +13,7 @@
 		B7A863691725F83B0063B924 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B7A863671725F83B0063B924 /* Credits.rtf */; };
 		B7A8636C1725F83B0063B924 /* ELGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8636B1725F83B0063B924 /* ELGAppDelegate.m */; };
 		B7A8636F1725F83B0063B924 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7A8636D1725F83B0063B924 /* MainMenu.xib */; };
+		B7A863761725F85A0063B924 /* sendkey.scpt in Resources */ = {isa = PBXBuildFile; fileRef = B7A863751725F85A0063B924 /* sendkey.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		B7A8636A1725F83B0063B924 /* ELGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELGAppDelegate.h; sourceTree = "<group>"; };
 		B7A8636B1725F83B0063B924 /* ELGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELGAppDelegate.m; sourceTree = "<group>"; };
 		B7A8636E1725F83B0063B924 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B7A863751725F85A0063B924 /* sendkey.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendkey.scpt; sourceTree = "<group>"; };
+		B7A863771725FCE90063B924 /* SendKey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SendKey.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		B7A8635E1725F83B0063B924 /* SendKey */ = {
 			isa = PBXGroup;
 			children = (
+				B7A863771725FCE90063B924 /* SendKey.entitlements */,
 				B7A8636A1725F83B0063B924 /* ELGAppDelegate.h */,
 				B7A8636B1725F83B0063B924 /* ELGAppDelegate.m */,
 				B7A8636D1725F83B0063B924 /* MainMenu.xib */,
@@ -93,6 +97,7 @@
 		B7A8635F1725F83B0063B924 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B7A863751725F85A0063B924 /* sendkey.scpt */,
 				B7A863601725F83B0063B924 /* SendKey-Info.plist */,
 				B7A863611725F83B0063B924 /* InfoPlist.strings */,
 				B7A863641725F83B0063B924 /* main.m */,
@@ -157,6 +162,7 @@
 				B7A863631725F83B0063B924 /* InfoPlist.strings in Resources */,
 				B7A863691725F83B0063B924 /* Credits.rtf in Resources */,
 				B7A8636F1725F83B0063B924 /* MainMenu.xib in Resources */,
+				B7A863761725F85A0063B924 /* sendkey.scpt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +270,14 @@
 		B7A863731725F83B0063B924 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SendKey/SendKey.entitlements;
+				CODE_SIGN_IDENTITY = "Eric Gorr TEMP";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SendKey/SendKey-Prefix.pch";
 				INFOPLIST_FILE = "SendKey/SendKey-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,11 +285,14 @@
 		B7A863741725F83B0063B924 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SendKey/SendKey.entitlements;
+				CODE_SIGN_IDENTITY = "Eric Gorr TEMP";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SendKey/SendKey-Prefix.pch";
 				INFOPLIST_FILE = "SendKey/SendKey-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -304,6 +316,7 @@
 				B7A863741725F83B0063B924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
