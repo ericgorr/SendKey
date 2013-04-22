@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7A863591725F83B0063B924 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A863581725F83B0063B924 /* Cocoa.framework */; };
+		B7A863631725F83B0063B924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7A863611725F83B0063B924 /* InfoPlist.strings */; };
+		B7A863651725F83B0063B924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A863641725F83B0063B924 /* main.m */; };
+		B7A863691725F83B0063B924 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B7A863671725F83B0063B924 /* Credits.rtf */; };
+		B7A8636C1725F83B0063B924 /* ELGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8636B1725F83B0063B924 /* ELGAppDelegate.m */; };
+		B7A8636F1725F83B0063B924 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7A8636D1725F83B0063B924 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7A863551725F83B0063B924 /* SendKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A863581725F83B0063B924 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B7A8635B1725F83B0063B924 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B7A8635C1725F83B0063B924 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B7A8635D1725F83B0063B924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7A863601725F83B0063B924 /* SendKey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SendKey-Info.plist"; sourceTree = "<group>"; };
+		B7A863621725F83B0063B924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7A863641725F83B0063B924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7A863661725F83B0063B924 /* SendKey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendKey-Prefix.pch"; sourceTree = "<group>"; };
+		B7A863681725F83B0063B924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B7A8636A1725F83B0063B924 /* ELGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELGAppDelegate.h; sourceTree = "<group>"; };
+		B7A8636B1725F83B0063B924 /* ELGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELGAppDelegate.m; sourceTree = "<group>"; };
+		B7A8636E1725F83B0063B924 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7A863521725F83B0063B924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A863591725F83B0063B924 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7A8634C1725F83A0063B924 = {
+			isa = PBXGroup;
+			children = (
+				B7A8635E1725F83B0063B924 /* SendKey */,
+				B7A863571725F83B0063B924 /* Frameworks */,
+				B7A863561725F83B0063B924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7A863561725F83B0063B924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7A863551725F83B0063B924 /* SendKey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7A863571725F83B0063B924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7A863581725F83B0063B924 /* Cocoa.framework */,
+				B7A8635A1725F83B0063B924 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7A8635A1725F83B0063B924 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8635B1725F83B0063B924 /* AppKit.framework */,
+				B7A8635C1725F83B0063B924 /* CoreData.framework */,
+				B7A8635D1725F83B0063B924 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B7A8635E1725F83B0063B924 /* SendKey */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8636A1725F83B0063B924 /* ELGAppDelegate.h */,
+				B7A8636B1725F83B0063B924 /* ELGAppDelegate.m */,
+				B7A8636D1725F83B0063B924 /* MainMenu.xib */,
+				B7A8635F1725F83B0063B924 /* Supporting Files */,
+			);
+			path = SendKey;
+			sourceTree = "<group>";
+		};
+		B7A8635F1725F83B0063B924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7A863601725F83B0063B924 /* SendKey-Info.plist */,
+				B7A863611725F83B0063B924 /* InfoPlist.strings */,
+				B7A863641725F83B0063B924 /* main.m */,
+				B7A863661725F83B0063B924 /* SendKey-Prefix.pch */,
+				B7A863671725F83B0063B924 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7A863541725F83B0063B924 /* SendKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A863721725F83B0063B924 /* Build configuration list for PBXNativeTarget "SendKey" */;
+			buildPhases = (
+				B7A863511725F83B0063B924 /* Sources */,
+				B7A863521725F83B0063B924 /* Frameworks */,
+				B7A863531725F83B0063B924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendKey;
+			productName = SendKey;
+			productReference = B7A863551725F83B0063B924 /* SendKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7A8634D1725F83B0063B924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ELG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Eric Gorr";
+			};
+			buildConfigurationList = B7A863501725F83B0063B924 /* Build configuration list for PBXProject "SendKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7A8634C1725F83A0063B924;
+			productRefGroup = B7A863561725F83B0063B924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7A863541725F83B0063B924 /* SendKey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7A863531725F83B0063B924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A863631725F83B0063B924 /* InfoPlist.strings in Resources */,
+				B7A863691725F83B0063B924 /* Credits.rtf in Resources */,
+				B7A8636F1725F83B0063B924 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7A863511725F83B0063B924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A863651725F83B0063B924 /* main.m in Sources */,
+				B7A8636C1725F83B0063B924 /* ELGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7A863611725F83B0063B924 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A863621725F83B0063B924 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7A863671725F83B0063B924 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A863681725F83B0063B924 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B7A8636D1725F83B0063B924 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A8636E1725F83B0063B924 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7A863701725F83B0063B924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B7A863711725F83B0063B924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B7A863731725F83B0063B924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendKey/SendKey-Prefix.pch";
+				INFOPLIST_FILE = "SendKey/SendKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7A863741725F83B0063B924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendKey/SendKey-Prefix.pch";
+				INFOPLIST_FILE = "SendKey/SendKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7A863501725F83B0063B924 /* Build configuration list for PBXProject "SendKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A863701725F83B0063B924 /* Debug */,
+				B7A863711725F83B0063B924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A863721725F83B0063B924 /* Build configuration list for PBXNativeTarget "SendKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A863731725F83B0063B924 /* Debug */,
+				B7A863741725F83B0063B924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7A8634D1725F83B0063B924 /* Project object */;
+}
